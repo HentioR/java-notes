@@ -26,7 +26,13 @@ Une méthode est rendue unique et distincte grâce à son prototype : nom de la 
 
 ##Static
 
-Usage du mot clé `static`
+Une méthode static est une méthode qui n'agit pas sur des variables d'instance mais uniquement sur des variables de classe. Ces méthodes peuvent être utilisées sans instancier un objet de la classe. Les méthodes ainsi définies peuvent être appelées avec la notation classe.methode() au lieu de objet.methode()
+
+```java
+public static nomDeLaMethode(){
+
+}
+```
 
 ##Abstract
 
